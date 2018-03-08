@@ -1,0 +1,46 @@
+nav{
+
+    height: 100px;
+    border-bottom: 2px solid black;
+    border-width:1px 0;
+    padding-left: 75px;
+    background-color: #A1B3A9;
+    width: 100%;
+    z-index: 100;
+}
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    background-color: #719584;
+    height: 45px;
+}
+html *
+{
+
+   font-family: Avenir;
+}
+h3{
+  color:white;
+  text-align: left;
+  position: absolute;
+  margin-top: 30px;
+}
+p{
+  color: black;
+}
+body{
+  padding-top: 100px;
+}
+#track_box{
+  position:absolute;
+   top: 50%;
+   left: 50%;
+   width:50em;
+   height:12em;
+   background-color: #EAEAEA;
+   margin-top: -6em; /*set to a negative number 1/2 of your height*/
+   margin-left: -25em; /*set to a negative number 1/2 of your width*/
+   border: 3px solid black;
+}
