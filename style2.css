@@ -1,3 +1,5 @@
+
+
 nav{
 
     height: 100px;
@@ -42,20 +44,31 @@ body{
    width:50em;
    height:12em;
    background-color: #EAEAEA;
-   margin-top: -6em; /*set to a negative number 1/2 of your height*/
-   margin-left: -25em; /*set to a negative number 1/2 of your width*/
+   margin-top: -5em;
+   margin-left: -24em;
    border: 3px solid black;
 }
 .myList{
    list-style-type: none;
 }
-.card-block {
-    min-height: 150px;
-}
+
+
 .scrolling-wrapper {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
 
-  
+
+}
+
+#img0, #img1, #img2, #img3, #img4, #img5, #img6, #img7{
+  max-width:80%;
+  max-height:80%;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 15px;
+
+}
+#child{
+margin-left: 310px;
 }
