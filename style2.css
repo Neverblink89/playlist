@@ -37,7 +37,7 @@ p{
 body{
   padding-top: 100px;
 }
-#track_box{
+#track_list{
   position:absolute;
    top: 50%;
    left: 50%;
@@ -69,6 +69,30 @@ body{
   margin-top: 15px;
 
 }
-#child{
+#album-bin{
 margin-left: 310px;
+}
+#clear_track{
+  left: 25%;
+  position: absolute;
+  top: 70%;
+  width: 15%;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #719584;
+}
+#submit_bin {
+  left: 42%;
+  position: absolute;
+  top: 70%;
+  width: 15%;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #719584;
 }
